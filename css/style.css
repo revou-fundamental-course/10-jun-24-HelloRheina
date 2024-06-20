@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    font-family: "Courier New", sans-serif;
+    color: #fff;
+  }
+  
+  .container {
+    width: 350px;
+    height: 500px;
+    background-color: pink;
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+  }
+  
+  h1 {
+    position: absolute;
+    left: 50%;
+    top: -12%;
+    width: 300px;
+    transform: translateX(-50%);
+    background-color: magenta;
+    color: white;
+    font-weight: 100;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .wrapper {
+    padding: 20px;
+  }
+  
+  input,
+  select {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid magenta;
+    padding: 10px;
+  }
+  
+  input:focus,
+  select:focus {
+    border: 1px solid purple;
+    outline: none;
+  }
+  
+  select {
+    width: 80% !important;
+  }
+  
+  button {
+    margin: 5px 10px; 
+    width: 50px; 
+    height: 20px;
+    position: center;
+    background-color: black;
+    color: #fff;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+
+  output {
+    font-size: 18px; 
+    content: "";
+  }
+  
